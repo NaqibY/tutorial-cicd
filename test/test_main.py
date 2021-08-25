@@ -13,6 +13,7 @@ def test_myfunc():
     with pytest.raises(ValueError, match=r'.*123.*'):
         main.myfunc()
 
+
 def test_upper_letter():
-    assert main.upper_letter('hello') == 'HELLO'
+    assert main.upper_letter('hello') == 'Hello'
     assert type(main.upper_letter('hello')) == str

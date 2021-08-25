@@ -5,5 +5,6 @@ def sum_of_number() -> int:
 def myfunc() -> object:
     raise ValueError('exception 123 error')
 
+
 def upper_letter(value) -> str:
     return value.capitalize()
